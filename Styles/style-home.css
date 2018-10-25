@@ -1,0 +1,35 @@
+main {
+	margin-top: 150px;
+	margin-left: 175px;
+	display: grid;
+	grid-template-columns: auto 1fr 1fr auto;
+	grid-template-rows: auto auto auto 1fr auto;
+	column-gap: 3px;
+	grid-row-gap: 3px;
+	grid-template-areas:
+	". . . ."
+	"happy-hour happy-hour happy-hour happy-hour"
+	". actie actie ."
+	". col1 col2 ."
+	". . . .";
+}
+
+.column-1 {
+	display: inline-block;
+	grid-area: col1;
+}
+.column-2 {
+	display: inline-block;
+	grid-area: col2;
+}
+
+.acties {
+	grid-area: actie;
+}
+
+.acties p {
+	font-family: Bastion;
+	color: red;
+	font-size: 36px;
+	text-align: center;
+}
