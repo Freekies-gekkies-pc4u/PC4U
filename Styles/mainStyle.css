@@ -108,7 +108,8 @@ main {
 
 
 footer {
-
+	margin: 0 0 0 175px;
+	background: 
 }
 
 
@@ -130,9 +131,10 @@ footer {
 
 .visible p {
 	font-family: Bastion;
-	color: red;
+	color: white;
 	font-size: 50px;
 	text-align: center;
+	padding: 5px 0px;
 }
 .visible {
 	grid-area: happy-hour;
