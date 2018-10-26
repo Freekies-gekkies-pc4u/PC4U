@@ -23,7 +23,7 @@ main section{
 	font-size: 15pt;
 	background: #A4A9AD;
 	display: block;
-	margin: 0;
+	margin: 3px;
 }.producten img {
 	max-width: 95%;
 	margin: auto;
