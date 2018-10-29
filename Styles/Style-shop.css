@@ -3,11 +3,13 @@ main {
 }
 main section{
 	margin: 155px 5px 5px 5px;
- }.product-grid {
+}
+ .product-grid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-}.producten{
+}
+ .producten{
 	height: 300px;
 	width: 300px;
 	display: flex;
@@ -16,25 +18,23 @@ main section{
 	border-radius: 5px;
 	border: 3px solid red;
 	margin: 10px 0;
-}.producten img {
-	width: 100%;
-	margin: auto 0;
-}.producten h3 {
+}
+ .producten h3 {
 	text-align: center;
 	font-size: 15pt;
 	background: #A4A9AD;
 	display: block;
-}.producten img {
+}
+ .producten img {
 	max-width: 95%;
 	margin: auto;
 	text-decoration: none;
-	margin: 0;
 }
-main a {
+ main a {
 	text-decoration: none;
 	color: black;
 }
-main a:hover {
+ main a:hover {
 	background: none;
 	color: green;
 }
