@@ -37,7 +37,7 @@ main {
 
 /*----------actie-producten----------*/
 
-.producten {
+/*.producten {
 	margin: 0 auto;
 	text-align: center;
 	display: flex;
@@ -55,9 +55,9 @@ main {
 	height: auto;
 	max-width: 95%;
 	margin: 3px;
-}
+}*/
 
-/*.producten {
+.producten {
 	margin: 0 auto;
 	text-align: center;
 	display: flex;
@@ -97,9 +97,9 @@ main {
 	font-size: 15pt;
 	background: #A4A9AD;
 	display: block;
-	margin: 0px;
+	margin: 0.5px;
 }.muizen img {
 	height: 344.725px;
 	max-width: 95%;
 	margin: 3px;
-}*/
+}
