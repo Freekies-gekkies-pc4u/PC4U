@@ -35,7 +35,9 @@ main section img {max-height: 220px; max-width: 226px;}
 	width: 100%;
 	display: flex;
 }
-
+.display-hidden {
+	display: none;
+}
 button {
 	margin: auto;
 }
