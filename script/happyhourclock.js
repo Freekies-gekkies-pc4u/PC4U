@@ -12,7 +12,7 @@ function harold(standIn) {
     standIn = '0' + standIn
   }
 
-if ( hours == 13){ 
+if ( hours == 15){ 
   document.getElementById('happy-hour').classList.add('visible');
 } 
 

@@ -44,16 +44,17 @@ main {
 	height: auto;
 	width: 95%;
 	background: white;
-	border: 2px solid #23001E;
+	border: 3px solid #23001E;
 	margin-bottom: 10px;
-	border-radius: 5px;
+	border-radius: 3px;
 	flex-direction: column;
 	justify-content: space-between;
+	padding: 0;
 } .producten h3 {
 	font-size: 15pt;
 	background: #A4A9AD;
 	display: block;
-	margin: 3px;
+	margin: 0px;
 }.producten img {
 	height: auto;
 	max-width: 95%;
@@ -67,16 +68,16 @@ main {
 	height: auto;
 	width: 95%;
 	background: white;
-	border: 2px solid #23001E;
+	border: 3px solid #23001E;
 	margin-bottom: 10px;
-	border-radius: 5px;
+	border-radius: 3px;
 	flex-direction: column;
 	justify-content: space-between;
 } .muizen h3 {
 	font-size: 15pt;
 	background: #A4A9AD;
 	display: block;
-	margin: 3px;
+	margin-left: 1px;
 }.muizen img {
 	height: 344.725px;
 	max-width: 95%;
