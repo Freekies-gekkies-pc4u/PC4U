@@ -67,10 +67,10 @@ h1 {
 .sidebar a:nth-child(1) {
 	margin: 0;
 }
-a.active {
+.sidebar a.active {
 	background: #FFAE28;
 }
-a:hover {
+.sidebar a:hover {
 	background: #FFAE28;
 	cursor: pointer;
 }
@@ -109,7 +109,8 @@ main {
 
 footer {
 	margin: 0 0 0 175px;
-	background: 
+	text-align: center;
+	background: #EEEEEE;
 }
 
 
