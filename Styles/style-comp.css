@@ -41,3 +41,31 @@ main section img {max-height: 220px; max-width: 226px;}
 button {
 	margin: auto;
 }
+
+/* ------ GPU ------ */
+.gpu {
+	border: 3px solid red;
+	display: block;
+	margin: 3px auto;
+}
+.motherbord {
+	border: 3px solid red;
+	display: block;
+	margin: 3px auto;
+}.cpu {
+	border: 3px solid red;
+	display: block;
+	margin: 3px auto;
+}.hdd {
+	border: 3px solid red;
+	display: block;
+	margin: 3px auto;
+}.ssd {
+	border: 3px solid red;
+	display: block;
+	margin: 3px auto;
+}.voeding {
+	border: 3px solid red;
+	display: block;
+	margin: 3px auto;
+}
