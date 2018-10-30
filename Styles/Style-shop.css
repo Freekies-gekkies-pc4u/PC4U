@@ -29,6 +29,7 @@ main section{
 	max-width: 95%;
 	margin: auto;
 	text-decoration: none;
+
 }
  main a {
 	text-decoration: none;
@@ -37,4 +38,10 @@ main section{
  main a:hover {
 	background: none;
 	color: green;
+}
+
+.img a:hover {
+	background: none;
+	color: green;
+	opacity: 0.5;
 }

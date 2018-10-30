@@ -11,6 +11,10 @@ main section {
 	"text text text";
 }
 
+h3 {
+	font-size: 20px;
+}
+
 .info-col {
 	margin: 2px 0px;
 }
@@ -24,4 +28,14 @@ main section {
 	grid-area: info;
 	text-align: center;
 	font-size: 36px;
+}
+
+.locatie {
+	text-decoration: none;
+	color: black;
+}
+
+.locatie:hover {
+	color: #FFBA49;
+	font-weight: bold;
 }

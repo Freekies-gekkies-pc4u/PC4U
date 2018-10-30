@@ -1,12 +1,33 @@
+/*#FFBA49, #20A39E, #EF5B5B, #23001E en #A4A9AD*/
+
 * {
 	padding: 0;
 	margin: 0;
 	font-family: calibri;
 }
+body {
 
+	height: 100%;
+	width: 100%;
+}
 
+.container {
+	min-width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr auto;
+	grid-template-areas: 
+	"main"
+	"footer";
+}
 
 /*------------header------------*/
+header {
+	left: 0;
+	top: 0;
+	grid-area: header; 
+}
+
 h1 {
 	text-align: center;
 	font-size: 125px;
@@ -81,6 +102,7 @@ h1 {
 
 
 main {
+	grid-area: main;
 	margin-top: 150px;
 	margin-left: 175px;
 	display: grid;
@@ -108,9 +130,10 @@ main {
 
 
 footer {
+	grid-area: footer;
 	margin: 0 0 0 175px;
 	text-align: center;
-	background: #EEEEEE;
+	background: #A4A9AD;
 }
 
 
